@@ -16,7 +16,7 @@ import os # Added for temporary file cleanup
 
 # --- Configuration ---
 # API Key must be defined as an empty string to use the environment's provided token
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = "AIzaSyBqRAr_at5UcwN3u9jZRr4n3QogOjAAFe8"
 GEMINI_FLASH = "gemini-2.5-flash"
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
